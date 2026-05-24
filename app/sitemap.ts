@@ -18,7 +18,7 @@ export default function sitemap() {
     routes.push({
       url: `${BASE_URL}/${locale.code}`,
       lastModified: new Date(),
-      changeFrequency: "daily" as const,
+      changeFrequency: "weekly" as const,
       priority: 0.9,
     });
 
