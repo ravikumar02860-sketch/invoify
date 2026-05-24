@@ -95,6 +95,11 @@ import InvoiceTemplate2 from "./templates/invoice-pdf/InvoiceTemplate2";
 import SendPdfEmail from "./templates/email/SendPdfEmail";
 
 /* =========================
+   * SEO Components
+   ========================= */
+import SEOHomepageContent from "./seo/SEOHomepageContent";
+
+/* =========================
    ? DEV ONLY
    ========================= */
 import DevDebug from "./dev/DevDebug";
@@ -149,5 +154,6 @@ export {
     InvoiceTemplate1,
     InvoiceTemplate2,
     SendPdfEmail,
+    SEOHomepageContent,
     DevDebug,
 };
