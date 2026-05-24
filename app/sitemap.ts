@@ -26,7 +26,7 @@ export default function sitemap() {
     routes.push({
       url: `${BASE_URL}/${locale.code}/blog/how-to-generate-invoice-from-amazon`,
       lastModified: new Date("2024-05-24"),
-      changeFrequency: "monthly" as const,
+      changeFrequency: "weekly" as const,
       priority: 0.8,
     });
   });
